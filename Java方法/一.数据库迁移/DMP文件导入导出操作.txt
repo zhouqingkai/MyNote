@@ -1,0 +1,11 @@
+DMP文件导入： 
+temp/temp@XE是自己的数据库用户名和密码以及实例名  
+fromuser=是导出的数据库用户名
+touser=需要导入的数据库用户名
+
+imp aml_spring/aml_spring@orcl  file=E:/aml.dmp fromuser=aml touser=aml_spring
+
+
+DMP导出：
+exp circsys/circsys@XE file=D:/circsys.dmp full=y
+
